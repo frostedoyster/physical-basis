@@ -2,9 +2,6 @@ import numpy as np
 import os
 
 
-# All these periodic functions are zeroed for the (unlikely) case where r > 10*r_0
-# which is outside the domain where the eigenvalue equation was solved
-
 def s(n, x):
     return np.sin(np.pi*(n+1.0)*x/10.0)
 
