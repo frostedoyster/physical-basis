@@ -1,9 +1,7 @@
 #include <fstream>
-#include <iostream>
 #include <iomanip>
 #include <cmath>
 #include <gsl/gsl_integration.h>
-#include <gsl/gsl_cblas.h>
 
 
 double pi = 4.0 * std::atan(1.0);
